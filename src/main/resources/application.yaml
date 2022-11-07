@@ -3,7 +3,7 @@ management.endpoints.web.exposure.include: "*"
 
 logging: # logging 설정
   level:
-    com.hamkke.com.hamkke.hamkkestudyplatformserverv2: debug
+    com.hamkke.hamkkestudyplatformserverv2: debug
     org.springframework.web.servlet: debug # request, response 에 대한 debug
     org.hibernate.type.descriptor.sql.BasicBinder: trace # JPA 쿼리에 대한 log
 
@@ -20,5 +20,4 @@ spring:
     properties:
       hibernate.format_sql: true
       hibernate.default_batch_fetch_size: 100
-  h2.console.enabled: true
   sql.init.mode: always
